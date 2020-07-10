@@ -32,8 +32,8 @@ export default {
 		}
 	},
 	methods: {
-		addSighting(e){
-			e.preventDefault()
+		addSighting(event){
+			event.preventDefault()
 			const sighting = {
 				species: this.species,
 				location: this.location,
